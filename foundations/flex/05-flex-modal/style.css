@@ -70,8 +70,8 @@ button.cancel {
 
 .modal {
   display: flex;
-  padding: 15px;
-  gap: 15px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .top {
@@ -89,12 +89,12 @@ button.cancel {
 
 .flex-text {
   align-self: flex-start;
-  margin: 15px 0px;
+  margin: 8px 0px 16px 0px;
 }
 
 .proceed-buttons {
   align-self: flex-start;
-  margin-top: 15px
+  margin-top: 16px
 }
 
 .flex-icon {
