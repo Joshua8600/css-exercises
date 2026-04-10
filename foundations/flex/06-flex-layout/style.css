@@ -27,11 +27,30 @@ input {
 
 ul {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
   text-decoration: none;
 }
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .content {
+  flex: 1 1 auto
+} */
 
 .all {
   display: flex;
@@ -39,11 +58,38 @@ a {
   justify-content: space-between;
 }
 
-.header,
-.footer {
+.content {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  column-gap: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding: 16px 0px;
+}
+
+button {
+  padding: 10px;
+}
+
+.buttons {
+  padding: 16px;
+}
+
+.left-links {
+  padding-left: 16px;
+}
+
+.right-links {
+  padding-right: 16px;
 }
 
 /* .header {
