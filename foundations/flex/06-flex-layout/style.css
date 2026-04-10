@@ -35,7 +35,8 @@ a {
   text-decoration: none;
 }
 
-body {
+.all {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,28 +83,3 @@ button {
 .right-links {
   padding-right: 16px;
 }
-
-/* .all {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
-
-/* .content {
-  flex: 1 1 auto
-} */
-
-/* .header {
-  align-items: flex-start;
-}
-
-.footer {
-  align-items: flex-end;
-} */
-
-/* left-links,
-right-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
